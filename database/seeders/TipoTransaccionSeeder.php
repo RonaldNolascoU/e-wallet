@@ -17,5 +17,9 @@ class TipoTransaccionSeeder extends Seeder
         TipoTransaccion::create([
             'tipo_transaccion' => 'Ingreso'
         ]);
+
+        TipoTransaccion::create([
+            'tipo_transaccion' => 'Egreso'
+        ]);
     }
 }

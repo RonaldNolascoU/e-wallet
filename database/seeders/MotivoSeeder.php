@@ -15,7 +15,16 @@ class MotivoSeeder extends Seeder
     public function run()
     {
         Motivo::create([
-            'motivo' => 'Pago de servicios'
+            'motivo' => 'Pago por servicios',
+        ]);
+        Motivo::create([
+            'motivo' => 'Salario',
+        ]);
+        Motivo::create([
+            'motivo' => 'Regalo',
+        ]);
+        Motivo::create([
+            'motivo' => 'Deudas',
         ]);
     }
 }
