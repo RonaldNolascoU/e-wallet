@@ -19,12 +19,12 @@ class TipoCuentaSeeder extends Seeder
                 'nombre' => 'Ahorros',
                 'created_at' => now(),
                 'updated_at' => now()
-            ],
+            ]);
+        TipoCuenta::insert(
             [
-                'nombre' => 'Corriente',
+                'nombre' => 'Personal',
                 'created_at' => now(),
                 'updated_at' => now()
-            ]
-        );
+            ]);
     }
 }

@@ -19,6 +19,8 @@ class UsuarioSeeder extends Seeder
             'nombre' => 'Usuario',
             'apellido' => 'Usuario',
             'correo' => 'usuario@gmail.com',
+            'balance' => 50,
+            'primeravisita'=> 0,
             'clave' => Hash::make('password'),
         ]);
     }
